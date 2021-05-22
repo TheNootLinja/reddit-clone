@@ -1,6 +1,24 @@
+:root {
+  /* colors */
+  --darkgray: #1a1a1c;
+  --lightgray: #343636;
+  --black: black;
+  --offwhite: #d7dadc;
+
+  /* intentions */
+  --border-color: var(--lightgray);
+  --background-color: var(--black);
+  --card-color: var(--darkgray);
+  --text-color: var(--offwhite);
+}
+
 body {
   margin: 0;
   padding: 50px 0 0 0;
   height: 5000px;
-  background-color: black;
+  background-color: var(--background-color);
+}
+
+h1 {
+  color: white;
 }

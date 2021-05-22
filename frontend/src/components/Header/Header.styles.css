@@ -1,12 +1,12 @@
 .Header {
   height: 48px;
   width: 100%;
-  background-color: #1a1a1b;
+  background-color: var(--card-color);
   position: fixed;
   margin: 0;
   padding: 0;
   top: 0;
-  border-bottom: 1px solid #343536;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .Header-inner {
