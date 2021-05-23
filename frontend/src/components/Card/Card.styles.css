@@ -1,11 +1,54 @@
-.card {
-  background-color: var(--card-color);
-  border: 1px solid var(--border-color);
+.card-container {
+  background-color: var(--background-color);
   margin-top: 10px;
+}
+
+.card-left {
+  border-radius: 4px;
+  background-color: var(--darkergray);
+  border: 1px solid var(--border-color);
+}
+
+.card {
+  margin-left: auto;
+  background-color: var(--card-color);
   color: var(--text-color);
+  width: 90%;
+  height: 100%;
 }
 
 .content-container {
   width: 90%;
   margin: auto;
+}
+
+.info-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.info {
+  margin: 0 5px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 20px 5px 20px 10px;
+}
+
+.flair-container {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.flair {
+  background-color: #343536;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-size: 100%;
 }
