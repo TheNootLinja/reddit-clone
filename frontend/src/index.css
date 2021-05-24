@@ -9,6 +9,7 @@
   /* intentions */
   --border-color: var(--lightgray);
   --background-color: var(--black);
+  --lightmode-background-color: var(--offwhite);
   --card-color: var(--darkgray);
   --text-color: var(--offwhite);
 }
@@ -22,4 +23,12 @@ body {
 
 h1 {
   color: white;
+}
+
+.dark-mode {
+  background-color: var(--background-color);
+}
+
+.light-mode {
+  background-color: var(--lightmode-background-color);
 }

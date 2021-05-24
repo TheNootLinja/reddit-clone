@@ -22,9 +22,13 @@
   margin: auto;
 }
 
+.content-container p {
+  margin: 0;
+}
+
 .info-container {
   display: flex;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .info {
@@ -51,4 +55,17 @@
   border-radius: 20px;
   padding: 2px 8px;
   font-size: 100%;
+}
+
+.image {
+  width: 90%;
+  overflow: hidden;
+}
+
+.likes {
+  text-align: center;
+  width: 20px;
+  color: white;
+  position: absolute;
+  margin: 45px 20px 0 20px;
 }

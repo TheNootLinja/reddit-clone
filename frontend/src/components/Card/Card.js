@@ -4,7 +4,7 @@ function Card({ post }) {
   return (
       <div className='card-container'>
         <div className='card-left'>
-            <p>{post.postLikes}</p>
+            <p className='likes'>{post.postLikes}</p>
             <div className='card'>
                 <div className='info-container'>
                     <p className="sub info">{post.postSub}</p>
@@ -19,6 +19,7 @@ function Card({ post }) {
                 </div>
                 <div className="content-container">
                     <p>{post.postContent}</p>
+                    {post.postType === "Image" && <img className='image' src={post.postImage} alt="" />}
                 </div>
             </div>
         </div>
