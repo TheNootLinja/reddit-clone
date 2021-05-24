@@ -4,6 +4,7 @@ function Card({ post }) {
   return (
       <div className='card-container'>
         <div className='card-left'>
+            <p>{post.postLikes}</p>
             <div className='card'>
                 <div className='info-container'>
                     <p className="sub info">{post.postSub}</p>

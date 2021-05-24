@@ -14,7 +14,7 @@ function App() {
       postDate: "04/20/2020",
       postSub: "r/dogecoin",
       postID: Math.random() * 999999,
-      postLikes: Math.randon()
+      postLikes: Math.floor(Math.random() * 1000),
     },
   ]
   console.log(postList)
