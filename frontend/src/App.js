@@ -13,10 +13,11 @@ function App() {
       postContent: "This is a test of a post to see how the cards look.",
       postDate: "04/20/2020",
       postSub: "r/dogecoin",
-      postID: Math.random() * 999999
+      postID: Math.random() * 999999,
+      postLikes: Math.randon()
     },
   ]
-
+  console.log(postList)
   return <div className="App">
     <Header />
     <Cards posts={postList} />
