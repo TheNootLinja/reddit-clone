@@ -3,8 +3,10 @@ import './Card.styles.css';
 function Card({ post }) {
   return (
       <div className='card-container'>
-        <div className='card-left'>
-            <p className='likes'>{post.postLikes}</p>
+        <div className='card-outer'>
+            <div className='likes-container'>
+                <p className='likes'>{post.postLikes}</p>
+            </div>
             <div className='card'>
                 <div className='info-container'>
                     <p className="sub info">{post.postSub}</p>
@@ -19,7 +21,12 @@ function Card({ post }) {
                 </div>
                 <div className="content-container">
                     <p>{post.postContent}</p>
-                    {post.postType === "Image" && <img className='image' src={post.postImage} alt="" />}
+                    {post.postType === "Image" &&
+                    <div className='image-container'>
+                        <img className='image' src={post.postImage} alt="" />
+                        <div className='sfi-button'>see full image</div>
+                    </div>
+                    }
                 </div>
             </div>
         </div>
