@@ -1,0 +1,102 @@
+.card-container {
+  background-color: var(--background-color);
+  margin-top: 10px;
+}
+
+.card-outer {
+  border-radius: 4px;
+  background-color: var(--darkergray);
+  border: 1px solid var(--border-color);
+  position: relative;
+}
+
+.card {
+  margin-left: auto;
+  background-color: var(--card-color);
+  color: var(--text-color);
+  width: 90%;
+  height: 100%;
+}
+
+.content-container {
+  width: 90%;
+  margin: auto;
+}
+
+.content-container p {
+  margin: 0;
+}
+
+.info-container {
+  display: flex;
+  padding-top: 10px;
+}
+
+.info {
+  margin: 0 5px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 20px 5px 20px 10px;
+}
+
+.flair-container {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.flair {
+  background-color: #343536;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-size: 100%;
+}
+
+.image-container {
+  overflow: hidden;
+  max-height: 512px;
+}
+
+.image {
+  width: 90%;
+}
+
+.likes-container {
+  width: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  box-sizing: border-box;
+  left: 0;
+  padding: 8px 4px 8px 0;
+  position: absolute;
+  top: 0;
+}
+
+.likes {
+  color: white;
+  font-size: 12px;
+}
+
+.sfi-button {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  transform: translate(-50%);
+  border-radius: 4px;
+  line-height: 32px;
+  position: absolute;
+  background-color: rgba(80, 85, 87, 0.7);
+  bottom: 16px;
+  left: 50%;
+  width: 320px;
+  color: #fff;
+}
