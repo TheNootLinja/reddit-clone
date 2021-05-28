@@ -19,3 +19,7 @@
   width: 32px;
   padding: 8px 8px 8px 0;
 }
+
+form {
+  display: block;
+}
